@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Srinivas Pentapati</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <style>
+        
+        .ft-modal {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0;
+                z-index: 9999;	
+                overflow: auto;
+            position: fixed;
+                visibility: hidden;
+            margin-top: -250px;
+            background: rgba(0,0,0,.8);
+            
+            transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -webkit-transition: all .3s ease-in-out;
+        }
+        
+        .ft-modal:target {
+            opacity: 1;
+            margin-top: 0px;
+            visibility: visible;	
+        }
+        
+        .ft-modal-content {
+            width: 70%;
+            padding: 25px;
+            background: #FFF;
+            max-width: 600px;
+            margin: 70px auto;
+            position: relative;
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+        }
+        
+        /*
+        .ft-modal-close {
+            top: 9px;
+            right: 12px;
+            float: right;
+            position: absolute;
+        }
+        */
+            </style>
+</head>
+
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="images/favicon.png" alt="Homepage">
+            </a>
+        </div>
+
+        <div class="header-content">
+    
+            <nav class="row header-nav-wrap">
+                <ul class="header-nav">
+                    <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="About">About</a></li>
+                    <li><a class="smoothscroll" href="#services" title="Services">Skills</a></li>
+                    <li><a class="smoothscroll" href="#portfolio" title="Works">Awards</a></li>
+                    <li><a class="smoothscroll" href="#Contact" title="Contact us">Say Hello</a></li>
+                </ul>
+            </nav> <!-- end header-nav-wrap -->
+
+            <a href="https://drive.google.com/file/d/1TmV-h58rS-7CsA_N3w9VmREpu9dcBmTv/view?usp=sharing" class="btn btn--stroke btn--small" title="Download CV">Download CV</a>
+
+        </div> <!-- end header-content -->
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> 
+
+
+    <!-- hero
+    ================================================== -->
+    <section id="hero" class="s-hero target-section" data-parallax="scroll" data-image-src="images/pic1.png" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="row hero-content">
+
+            <div class="column large-full">
+
+                <h1>
+                Hello, I'm Srinivas Pentapati, <br>
+                Branch Administrator, <br>
+                sales recruitor  <br>
+                & trainer
+                </h1>
+
+                <ul class="hero-social">
+                    <li>
+                        <a href="https://www.linkedin.com/in/srinivas-pentapati-9881281b/" title="linkedin">Linkedin</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/srinivas.pentapati" title="facebook">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="mailto:shyamalasrina@gmail.com" title="gmail">Gmail</a>
+                    </li>
+                </ul> <!-- end hero-social -->
+
+            </div> 
+
+        </div> <!-- end hero-content -->
+
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-link smoothscroll" title="go down">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 24l-8-9h6v-15h4v15h6z"/></svg>
+            </a>
+        </div> <!-- end hero-scroll -->
+
+    </section> <!-- end s-hero -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="s-about__section s-about__section--profile">
+
+            <div class="right-vert-line"></div>
+
+            <div class="row">
+                <div class="column large-6 medium-8 tab-full">
+
+                    <div class="section-intro" data-num="01" data-aos="fade-up">
+                        <h3 class="subhead">About Me</h3>
+                        <h1 class="display-1">I'm the kind of person who isn't afraid of challenges.</h1>
+                    </div>
+
+                    <div class="profile-pic" data-aos="fade-up">
+                        <img src="images/thumbnail.jpg" 
+                             srcset="images/thumbnail.jpg 1x, images/thumbnail.jpg 2x" alt="">
+                    </div>
+
+                    <h3 data-aos="fade-up">Profile</h3>
+
+                    <p data-aos="fade-up">
+                    My personal objective is to obtain a position rooted in providing top quality customer service and where my marketing and
+                    organizational skills will maximize company growth and profitability. Passionate marketing professional with 25+ years of experience driving conversion rates and increasing revenue. Currently employed as a Branch Manager at Southern Agencies, Rajahmundry.
+                    
+                    <ul><h3 data-aos="fade-up">Personal Profile</h3>
+                        <li>Date of birth &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp         :          25-07-1967</li>
+                        <li>Marital Status &nbsp &nbsp &nbsp &nbsp &nbsp              :          Married</li>
+                        <li>Father's Name  &nbsp &nbsp &nbsp &nbsp         :          P.Suryanarayana</li>
+                        <li>Address:(In India)      :          5-336/1A, Nethaji Nagar(3rd Lane)<br> Gurukulam Road, Rajahmundry-533101, Andhra Pradesh, India.</li>
+                        <li>Nationality &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp: INDIAN</li>
+                        <li>Passport &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;: J 9212395</li>
+                   
+                    </ul>
+                    
+                    <ul><h3 data-aos="fade-up">My Strengths</h3>
+                        <li>Hard working and result oriented</li>
+                        <li>Ability to work individually as well as with the team</li>
+                        <li>Self starter with proven ability to manage multiple assignments and multiple resources efficiently, meeting tight schedules under extremely challenging situations.</li>
+                        <li>Presentation and participating and conducting exhibitions for new product launching.</li>
+                    </ul>
+                    </p>
+
+                </div>
+            </div>
+
+        </div> <!-- end s-about__section--profile -->
+
+        <div class="s-about__section">
+
+            <div class="row">
+                <div class="column">
+                    <h3 data-aos="fade-up">Career</h3>
+                </div>
+            </div>
+
+            <div class="row block-large-1-2 block-900-full work-positions">
+
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">SOUTHERN AGENCIES</span>
+                                <span class="position__pos">- &nbsp;&nbsp;&nbsp;BRANCH MANAGER</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                December 2018 - Present
+                            </div>
+                        </div>
+
+                        <p>
+                            Southern Agencies is a trusted retailer and distributor of Locks, Appliances, Security Safes and Furniture. It is a trusted distributor of GODREJ Company. 
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">PODDAR TYRES LTD</span>
+                                <span class="position__pos"> - &nbsp;&nbsp;&nbsp;BRANCH MANAGER</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                November 1997 - October 2018
+                            </div>
+                        </div>
+
+                        <p>
+                            Poddar Tyres Limited is a Public incorporated on 13 February 1981. It is classified as Non-govt company and is registered at Registrar of Companies, Mumbai.Company engaged in the Manufacturing of Bicycle & Auto Tires, Tubes with a turnover of INR   600 Crores. </p>
+                             </div>
+                    
+                </div>
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">First Flight Couriers LTD</span>
+                                <span class="position__pos"> - &nbsp;&nbsp;&nbsp;MARKETING EXECUTIVE</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                August 1993 - October 1997
+                            </div>
+                        </div>
+
+                        <p>
+                            First Flight Couriers is a tireless team working smart to help reach our personal, professional & private courier packages across the globe- real quick. Worked as Marketing Executive, reporting to Branch Manager in First Flight Couriers Ltd. 
+                        </p>
+                        </div>
+                    
+                </div> <!-- end column -->
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">EENADU, Rajahmundry Unit</span>
+                                <span class="position__pos"> - &nbsp;&nbsp;&nbsp;UNIT SALES OFFICER</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                January 1990 - July 1993
+                            </div>
+                        </div>
+
+                        <p>
+                            Eenadu is the largest circulated Telugu-language daily newspaper of India sold mostly in the states of Andhra Pradesh and Telangana. Worked as Unit Sales Officer in EENADU news paper at Rajahmundry unit. 
+                        </p>
+                        </div>
+                    
+                </div>
+            </div> <!-- work positions -->
+            <div class="row">
+                <div class="column">
+                    <h3 data-aos="fade-up">Professional Profile</h3>
+                </div>
+            </div>
+
+            <div class="row block-large-1-2 block-900-full work-positions">
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Professional Qualification</span>
+                                <span class="position__pos">- &nbsp;&nbsp;&nbsp;B.L</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                1985-1988
+                            </div>
+                        </div>
+
+                        <p>I have received my bachelor of law degree at time in Andhra University loacted at Vishakhapatnam.</p>
+                        </div>
+                </div> <!-- end column -->
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Academic Qualification</span>
+                                <span class="position__pos">- &nbsp;&nbsp;&nbsp;B.Sc and M.A</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                1994-1997
+                            </div>
+                        </div>
+
+                        <p>
+                        I have completed my bachelor of science and master of arts degrees in Andhra University located at Vishakhapatnam.                       </p>
+                    </div>
+                </div> <!-- end column -->
+                
+
+            </div> <!-- work positions -->
+
+        </div> <!-- end s-about__section -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services target-section h-dark-bg">
+        
+        <div class="row s-services__content" id="blur">
+
+            <div class="vert-line"></div>
+
+            <div class="column large-6 s-services__leftcol">
+                <div class="section-intro" data-num="02" data-aos="fade-up">
+                    <h3 class="subhead">Skills</h3>
+
+                    <h1 class="display-1">
+                        Overseeing of whole Branch Administration and coordinating with department managers and staff.
+                    </h1>
+                </div>
+
+                <p class="lead" data-aos="fade-up">
+                    From November 1997 to October 2018 worked as Branch Manager in PODDAR TYRES LTD as BRANCH
+                    MANAGER at Rajahmajendravaram. This is second largest with the turnover of Rs 5 Billion in
+                    manufacturing two wheeler tires, tubes (Bedrock) Auto tubes and spare parts.Here is the link which will redirect you to my awards and achievements <a href="#ft-demo-modal">Check it out</a>
+                </p>
+            </div> <!-- end  s-services--leftcol -->
+            
+            <div class="column large-6">
+                <ul class="services-list" data-aos="fade-up">
+                    <li class="services-list__item is-active">
+                        <div class="services-list__item-header">
+                            <h5>Managing People</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                It includes the ability to listen to employee feedback and recognize
+                                employee strengths and weakness.
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Sales Technique</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                Technical sales strategies for building rapport, identifying customer
+                                needs, and closing deals are really tricky and I can manage those tricky strategies with my technique.
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Product Expertise</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                I have an extensive semantic knowledge on the technical features and benefits of each product they sell. Identify Areas of Depth Nobody can be great at all aspects of building products.
+                            
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Negotiation Skills</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                Selling high-ticket items that involves some price haggling and also those which deals
+                                favorable to both parties.
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Communication Skills</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                Good communication keeps all employees participate actively, which keeps
+                                customers happy and the sales floor looking good.Making our message as easy to consume as possible reduces the chance of misunderstandings, speeds up projects, targets and helps others quickly understand our goals.
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Leadership Skills</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                Maintain harmony among their team and get the best performance
+                                out of each member. The ability to inspire and convince others and ultimately turn information into action
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                     <!-- services-list__item -->
+                </ul> <!-- end services-list -->
+            </div>
+
+        </div> <!-- s-services__content -->
+
+    </section> <!-- end s-services -->
+    <div class="ft-modal" id="ft-demo-modal">
+        <div class="ft-modal-content">
+            
+                <h2>My Achievements and Awards</h2>
+        <h3>Awards</h3><ul>
+            <li>Best Profit Center Award</li>
+            <li>Best Intelligence report Award</li>
+            <li>Highest Sales Incentives</li>
+            </ul>
+            <h3>Achievements</h3>
+            <ul>
+            <li>Controlled Client Credit period from 90 days to 30 days</li>
+            <li>Successful Implementation of collections through Electronic Transfers from Dealers</li>
+            <li>RTGS, NEFTS etc., to reduce Cash Transaction</li>
+            <li>Sales Turn over in 3years Average Increased from 10 Millions Pa to 45 Millions Pa</li>
+            <li>Collection percentage increased from 45% to 85%.p.m.avg.,</li>
+            
+        </ul>
+            <div class="ft-modal-footer">
+                <a class="ft-modal-close" href="#">[&#10006;] Close</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
+    
+    <!-- Link in page to show modal on click-->
+    
+    
+
+
+
+        
+    <!-- portfolio
+    ================================================== -->
+    <section id="portfolio" class="s-portfolio target-section">
+
+        <div class="row s-portfolio__header">
+            <div class="column large-6 medium-8 tab-full">
+                <div class="section-intro" data-num="03" data-aos="fade-up">
+                    <h3 class="subhead">Awards</h3>
+                    <h1 class="display-1">
+                        A vote of appreciation in the form of awards from the companies I have worked.
+                    </h1>
+                </div>
+            </div>
+        </div> <!-- s-porfolio__header -->
+
+        <div class="row s-porfolio__list block-large-1-2 block-tab-full collapse">
+
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/image1.jpg" title="Inaugurating the function" data-size="1050x700">
+                            <img src="images/image1.jpg"> 
+                                 
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Inaugurating</div>
+                        <h4 class="folio-item__title">Conference at OOTY</h4>
+                    </div>
+                    
+                    <div class="folio-item__caption">
+                        <p>Conference for annual sales preview and planning at OOTY on behalf of Poddar Tyres Limited.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/image2.jpg" title="Receiving award" data-size="1050x700">
+                            <img src="images/image2.jpg" 
+                                 >
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Receiving Award</div>
+                        <h4 class="folio-item__title">Conference at OOTY</h4>
+                    </div>
+                    
+                    <div class="folio-item__caption">
+                        <p>Receiving award as best profit center for Bedrock, Rajamajendravaram branch at OOTY on the occassion of conference for annual sales preview and planning.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/image3.jpg" Title="Staff" data-size="1050x700">
+                            <img src="images/image3.jpg">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Staff</div>
+                        <h4 class="folio-item__title">Conference at OOTY</h4>
+                    </div>
+                   
+                    <div class="folio-item__caption">
+                        <p>Conference of branch managers from all the branches of the poddar tyres limited.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/image6.jpg" title="Conference at OOTY" data-size="1050x700">
+                            <img src="images/image6.jpg" 
+                                 >
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Receiving Award</div>
+                        <h4 class="folio-item__title">Conference at OOTY</h4>
+                    </div>
+                    
+                    <div class="folio-item__caption">
+                        <p>Conference with all the managers working for Poddar Tyres Limited.</p>
+                    </div>
+                </div>
+            </div>
+             <!-- end column -->
+             <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/image4.jpg" title="Conference At OOTY" data-size="1050x700">
+                            <img src="images/image4.jpg">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Receiving Award</div>
+                        <h4 class="folio-item__title">Conference at OOTY</h4>
+                    </div>
+                    
+                    <div class="folio-item__caption">
+                        <p>Receiving award as best profit center for Bedrock, Rajahmajendravaram branch at OOTY on the occassion of conference for annual sales preview and planning.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+             
+             
+
+        </div> <!-- folio-list -->
+
+    </section> <!-- end portfolio -->
+
+    <section id="services" class="s-services target-section h-dark-bg">
+        
+        <div class="row s-services__content" id="blur">
+
+            <div class="vert-line"></div>
+
+            <div class="column large-6 s-services__leftcol">
+                <div class="section-intro" data-num="04" data-aos="fade-up">
+                    <h3 class="subhead">Other Skills</h3>
+
+                    <h1 class="display-1">
+                        Organizational skills are beneficial to anyone who manages multiple tasks or projects at the same time.                    </h1>
+                </div>
+
+                <p class="lead" data-aos="fade-up">
+                    Marketing is in many ways a creative endeavor. Marketing managers should be able to develop unique and interesting ways to sell products or promote the brand.Managers in every industry are responsible for leading a team and motivating them to achieve a certain goal.
+                </p>
+            </div> <!-- end  s-services--leftcol -->
+            
+            <div class="column large-6">
+                <ul class="services-list" data-aos="fade-up">
+                    <li class="services-list__item is-active">
+                        <div class="services-list__item-header">
+                            <h5>Perfect Planning</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                Sales information and recommendations to Achieves marketing and sales operational objectives,
+by contributing marketing and strategic plans and reviews, preparing and completing action plans
+and implementing production productivity, quality and customer service standards.
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Marketing skills</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                Achieves  marketing and sales operational objectives. Staff Recruitment, induction programs, Training, and updating corporate price/scheme policies and procedures to Sales field staff, coordinating with other departments (H.O), AND Branch Administration.
+
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Solution seeker</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                Resolving
+                                problems, completing audits’ identifying trends determining system improvements,
+                                implementing changes. Preparing an annual sales budget, scheduling expenditures, analyzing variances and initiating
+                                corrective actions to achieve the financial sales objectives.                            
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Monitoring skills</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                Monitoring of stock movement on daily basis and conducting of physical inventory audits to
+                            verify accuracy of records fixing of specific targets to sales team on individual basis to accomplish
+                            the Corporate Goals.Protection of organization values by keeping information confidential
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Recruiter and trainer</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                Staff Recruitment, induction programs, Training, and updating corporate price/scheme policies
+                                and procedures to Sales field staff, coordinating with other departments,(H.O) Branch
+                                Administration. Designing and implementing market strategies for new products through various channels
+                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Maintaining & optimizing profitability</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>
+                                Timely submission of Monthly/weekly/daily MIS reports to Head Office – Report on Sales, Collections, cash and bank position, Inventory position, staff performance, Variance Reports, Projected Sales and Cash Flow.                            </p>
+                        </div>
+                    </li> <!-- services-list__item -->
+                </ul> <!-- end services-list -->
+            </div>
+
+        </div> <!-- s-services__content -->
+
+    </section>
+    <!-- testimonials
+    ================================================== -->
+    
+
+        <!-- CTA
+        ================================================== -->
+        <div class="s-cta" id="Contact">
+
+            <div class="row">
+                <div class="column large-full">
+                    <h2 class="section-desc" data-aos="fade-up">
+                        Please do hire me!!
+                    </h2>
+                </div>
+            </div>
+    
+            <div class="row cta-content" data-aos="fade-up">
+                <div class="column large-full">
+                    <p>
+                        I will spend all my hard work will yield great results that could effect the growth of the company.I would make efforts to effectuate a perfect work output in an immense way. Please hire me..
+                    </p>
+    
+                    <a href="https://www.dreamhost.com/r.cgi?287326" class="btn btn--primary h-full-width">Get Started</a>
+                </div>
+            </div> <!-- end cta-content -->
+    
+        </div> <!-- end s-cta -->
+
+
+    </section> <!-- end s-testimonials -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer h-dark-bg">
+        
+        <div class="right-vert-line"></div>
+
+        <div class="row s-footer__main">
+            <div class="column large-6">
+                <div class="section-intro" data-aos="fade-up">
+                    <h3 class="subhead">Get In Touch</h3>
+
+                    <h1 class="display-1">
+                        I would make efforts to effectuate a perfect work output in an immense way. Please hire me..
+                    </h1>
+                </div>
+
+                <div class="footer-email-us">
+                    <a href="mailto:shyamalasrina@gmail.com" class="btn btn--primary h-full-width">Let's Talk</a>
+                </div>
+            </div>
+
+            <div class="column large-5">
+                <div class="footer-contacts">
+                    <div class="footer-contact-block" data-aos="fade-up">
+                        <h5 class="footer-contact-block__header">
+                            Email
+                        </h5>
+                        <p class="footer-contact-block__content">
+                            <a href="mailto:shyamalasrina@gmail.com">shyamalasrina@gmail.com</a>
+                        </p>
+                    </div> <!-- end footer-contact-block -->
+                     <!-- end footer-contact-block -->
+                    <br>
+                    <div class="footer-contact-block" data-aos="fade-up">
+                        <h5 class="footer-contact-block__header">
+                            Social
+                        </h5>
+                        <ul class="footer-contact-block__list">
+                            <li><a href="https://www.linkedin.com/in/srinivas-pentapati-9881281b/">Linkedin</a></li>
+                            <li><a href="https://www.facebook.com/srinivas.pentapati">facebook</a></li>
+                            
+                           
+                        </ul>
+                    </div> <!-- end footer-contact-block -->
+                </div>
+            </div>
+        </div> <!-- end s-footer__main -->
+
+        <div class="row s-footer__bottom">
+            <div class="column large-full ss-copyright">
+                <span>© Copyright 2021</span> 
+            </div> <!-- end ss-copyright -->
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
+                </a>
+            </div> <!-- end ss-go-top -->
+        </div> <!-- end s-footer__bottom -->
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+    <script type="text/javascript">
+
+        function toggle(){
+        var blur=document.getElementById('blur');
+        blur.classList.toggle('active');
+        var popup=document.getElementById('popup');
+        popup.classList.toggle('active')
+        }
+        
+    
+    
+    </script>
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
